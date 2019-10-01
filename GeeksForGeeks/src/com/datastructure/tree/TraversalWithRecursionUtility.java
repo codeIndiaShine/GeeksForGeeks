@@ -1,6 +1,6 @@
 package com.datastructure.tree;
 
-public class TraversalUtility {
+public class TraversalWithRecursionUtility {
 
 
 	/**level order traversal or BFS
@@ -80,7 +80,7 @@ public class TraversalUtility {
 		bTree.addNode();
 		bTree.addNode();
 		
-		TraversalUtility traversalUtility = new TraversalUtility();
+		TraversalWithRecursionUtility traversalUtility = new TraversalWithRecursionUtility();
 		
 		System.out.println("****BFSorLevelOrderTraversal****");
 

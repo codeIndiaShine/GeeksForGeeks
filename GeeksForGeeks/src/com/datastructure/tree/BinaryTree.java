@@ -14,6 +14,8 @@ public class BinaryTree {
 			root.left.left = new Node(4);
 			root.left.left.left = new Node(5);
 			root.left.left.right = new Node(6);
+			root.left.left.right.left = new Node(7);
+			root.left.left.right.left = new Node(8);
 		} else if (root.right == null)
 			root.right = new Node(3);
 		
